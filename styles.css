@@ -75,3 +75,20 @@ button {
     height: 100vh;
     max-width: 400px;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:40%;
+	background-color:rgb(204, 0, 0);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}

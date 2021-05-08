@@ -14,10 +14,10 @@
     <p id="notification" hidden></p>
     <div class="entry-modal" id="entry-modal">
         <p>Create or Join Meeting</p>
-        <input class="form-control" id="room-input" spellcheck="false" autofocus type="number" class="room-input"
-            placeholder="Enter Room ID">
+        <input class="form-control" id="room-input" spellcheck="false" autofocus type="text" class="room-input"
+            placeholder="Enter Room ID" required>
         <div class="d-grid gap-2 mt-3">
-            <button onclick="createRoom()" class="btn btn-success">Create Room</button>
+            <button onclick="createRoom()" class="btn btn-warning">Create Room</button>
             <button onclick="joinRoom()" class="btn btn-outline-primary">Join Room</button>
             <small class="mt-2" align="center">Made with ❤️ by Sujal Shah</small>
         </div>
@@ -33,10 +33,8 @@
         </div>
     </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 
 </html>
